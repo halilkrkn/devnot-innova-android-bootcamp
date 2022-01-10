@@ -1,7 +1,7 @@
 # Devnot-Innova-Android-Bootcamp
  - ## Devnot - Innova Bilişim İş Birliği ile Yapılan Bootcamp Eğitimi ve Projeleri
  - Bootcamp başlangıcı 7 Ocak 2022, bitişi ise  20 Şubat 2022'dir.
- - Eğitimi alanında, Udemy eğitim platformunda 12000'den fazla öğrenciye sayısına sahip, oldukça yetkin ve alanında en iyilerinden birisi olan Senior Android - IOS Developer and Trainer ünvanına sahip **Kasım ADALAN** tarafından almaktayım.
+ - Eğitimi alanında, Udemy eğitim platformunda 12000'den fazla öğrenciye sayısına sahip, oldukça yetkin ve alanında en iyilerinden birisi olan Senior Android - IOS Developer and Trainer ünvanına sahip **[Kasım ADALAN](https://www.udemy.com/user/kasim-adalan-2/)** tarafından almaktayım.
   
 ![Alt Text](https://github.com/halilkrkn/devnot-innova-android-bootcamp/blob/master/picture/bootcamp_katilim_fotograf%C4%B1.jpg)
  ## - Bootcamp Neler Öğreneceğiz
