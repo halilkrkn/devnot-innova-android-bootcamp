@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">DesignWorking</string>
+    <string name="button_yazi">ADD TO CART</string>
+    <string name="pizza_baslik">Beef Cheese</string>
+    <string name="peynir_yazi">Cheese</string>
+    <string name="sucuk_yazi">Sausage</string>
+    <string name="zeytin_yazi">Olive</string>
+    <string name="biber_yazi">Pepper</string>
+    <string name="teslimat_sure">20 min</string>
+    <string name="teslimat_baslik">Delivery</string>
+    <string name="pizza_aciklama">Meat lover , get ready to meet your pizza !</string>
+    <string name="fiyat_yazi">$5.98</string>
+
 </resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tasarım Çalışması</string>
+    <string name="button_yazi">Sepete Ekle</string>
+    <string name="pizza_baslik">Etli Peynirli</string>
+    <string name="peynir_yazi">Peynir</string>
+    <string name="sucuk_yazi">Sucuk</string>
+    <string name="zeytin_yazi">Zeytin</string>
+    <string name="biber_yazi">Biber</string>
+    <string name="teslimat_sure">20 dk</string>
+    <string name="teslimat_baslik">Teslimat</string>
+    <string name="pizza_aciklama">Et sever , pizzanla tanışmaya hazırlan!</string>
+    <string name="fiyat_yazi">90 ₺</string>
+
+</resources>
