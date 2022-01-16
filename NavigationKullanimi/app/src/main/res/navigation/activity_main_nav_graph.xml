@@ -25,7 +25,7 @@
             app:popUpTo="@id/oyunEkraniFragment"
             app:popUpToInclusive="true" />
         <argument
-            android:name="ad "
+            android:name="ad"
             app:argType="string"
             android:defaultValue="isim yok" />
         <argument
