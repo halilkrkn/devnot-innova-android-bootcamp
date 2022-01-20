@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/linkedinMainFragment">
+
+    <fragment
+        android:id="@+id/linkedinMainFragment"
+        android:name="com.example.linkedinuiclone.ui.fragments.LinkedinMainFragment"
+        android:label="fragment_linkedin_main"
+        tools:layout="@layout/fragment_linkedin_main" />
+    <fragment
+        android:id="@+id/agimFragment"
+        android:name="com.example.linkedinuiclone.ui.fragments.AgimFragment"
+        android:label="fragment_agim"
+        tools:layout="@layout/fragment_agim" />
+    <fragment
+        android:id="@+id/gonderFragment"
+        android:name="com.example.linkedinuiclone.ui.fragments.GonderFragment"
+        android:label="fragment_gonder"
+        tools:layout="@layout/fragment_gonder" />
+    <fragment
+        android:id="@+id/bildirimlerFragment"
+        android:name="com.example.linkedinuiclone.ui.fragments.BildirimlerFragment"
+        android:label="fragment_bildirimler"
+        tools:layout="@layout/fragment_bildirimler" />
+    <fragment
+        android:id="@+id/isilaniFragment"
+        android:name="com.example.linkedinuiclone.ui.fragments.IsilaniFragment"
+        android:label="fragment_isilani"
+        tools:layout="@layout/fragment_isilani" />
+</navigation>

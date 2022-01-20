@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/linkedin_arama"
+    tools:context=".ui.fragments.LinkedinMainFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="3dp"
+            android:elevation="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_image"
+            android:scrollbars="vertical"
+            />
+
+
+        <EditText
+            android:id="@+id/searchView"
+            android:layout_width="285dp"
+            android:layout_height="28dp"
+            android:layout_marginEnd="9dp"
+            android:background="@drawable/linkedin_arama"
+            android:hint="  Arama Yap"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="@color/linkedin_search_yazi_renk1"
+            android:textColorHint="@color/linkedin_search_yazi_renk2"
+            app:drawableStartCompat="@drawable/arama_transparent"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="32dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/messages_transparent" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/linkedin_main_recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:listitem="@layout/item_linkedin_main"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
