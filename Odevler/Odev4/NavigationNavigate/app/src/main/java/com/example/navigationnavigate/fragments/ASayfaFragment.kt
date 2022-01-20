@@ -18,7 +18,6 @@ class ASayfaFragment : Fragment() {
     ): View? {
         binding = FragmentASayfaBinding.inflate(inflater, container, false)
 
-
         binding.apply {
             buttonASayfa.setOnClickListener { view ->
                 val gecisBSayfa = ASayfaFragmentDirections.actionASayfaFragmentToBSayfaFragment()
