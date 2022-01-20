@@ -26,9 +26,7 @@ class MainActivity : AppCompatActivity() {
 //        setContentView(R.layout.activity_main) Navigation Component İlk dersi içindi.
         binding = NavDrawerMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
-
+        
         // Drawer Navigation Kodlaması
         // Oluşturmuş olduğumuz bottom_nav_graph özelliği oluşturmş olduğumuz fragmentlerle kullanabilmek için navHostFragment e aktarıyoruz.
         val nav_hos_fragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
