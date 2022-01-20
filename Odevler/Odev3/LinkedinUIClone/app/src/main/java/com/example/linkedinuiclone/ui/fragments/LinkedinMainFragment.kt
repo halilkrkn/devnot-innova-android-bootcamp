@@ -30,6 +30,6 @@ class LinkedinMainFragment : Fragment() {
     private fun prepareItems() {
         itemsList.add("Item 1")
         itemsList.add("Item 2")
-        linkedinMainAdapter.notifyDataSetChanged()
+//        linkedinMainAdapter.notifyDataSetChanged()
     }
 }
