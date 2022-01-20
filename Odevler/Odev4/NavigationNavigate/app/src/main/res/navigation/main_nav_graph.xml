@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.navigationnavigate.fragments.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/action_anasayfaFragment_to_ASayfaFragment"
+            app:destination="@id/ASayfaFragment" />
+        <action
+            android:id="@+id/action_anasayfaFragment_to_XSayfaFragment"
+            app:destination="@id/XSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ASayfaFragment"
+        android:name="com.example.navigationnavigate.fragments.ASayfaFragment"
+        android:label="fragment_a_sayfa"
+        tools:layout="@layout/fragment_a_sayfa" >
+        <action
+            android:id="@+id/action_ASayfaFragment_to_BSayfaFragment"
+            app:destination="@id/BSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BSayfaFragment"
+        android:name="com.example.navigationnavigate.fragments.BSayfaFragment"
+        android:label="fragment_b_sayfa"
+        tools:layout="@layout/fragment_b_sayfa" >
+        <action
+            android:id="@+id/action_BSayfaFragment_to_YSayfaFragment"
+            app:destination="@id/YSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/XSayfaFragment"
+        android:name="com.example.navigationnavigate.fragments.XSayfaFragment"
+        android:label="fragment_x_sayfa"
+        tools:layout="@layout/fragment_x_sayfa" >
+        <action
+            android:id="@+id/action_XSayfaFragment_to_YSayfaFragment"
+            app:destination="@id/YSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/YSayfaFragment"
+        android:name="com.example.navigationnavigate.fragments.YSayfaFragment"
+        android:label="fragment_y_sayfa"
+        tools:layout="@layout/fragment_y_sayfa" >
+        <action
+            android:id="@+id/action_YSayfaFragment_to_anasayfaFragment"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+</navigation>
