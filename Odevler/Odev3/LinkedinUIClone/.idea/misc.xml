@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/drawable-v24/ic_baseline_add_box_24.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/drawable-v24/linkedin_arama.xml" value="0.3609375" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/drawable-v24/linkedin_profile_image.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/drawable/item_seletor.xml" value="0.15" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/layout/fragment_agim.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/layout/fragment_bildirimler.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/layout/fragment_gonder.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/layout/fragment_isilani.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/layout/fragment_linkedin_main.xml" value="0.31412103746397696" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/layout/item_linkedin_main.xml" value="0.33" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/menu/bottom_nav.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/Odevler/Odev3/LinkedinUIClone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.34479166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="15" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

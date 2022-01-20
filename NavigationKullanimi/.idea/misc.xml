@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/NavigationKullanimi/app/src/main/res/layout/activity_anasayfa.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/NavigationKullanimi/app/src/main/res/layout/activity_main.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/NavigationKullanimi/app/src/main/res/layout/activity_oyun_ekrani.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/NavigationKullanimi/app/src/main/res/layout/fragment_anasayfa.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/NavigationKullanimi/app/src/main/res/layout/fragment_birinci.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/NavigationKullanimi/app/src/main/res/layout/fragment_ikinci.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/NavigationKullanimi/app/src/main/res/layout/fragment_sonuc_ekrani.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/NavigationKullanimi/app/src/main/res/layout/nav_drawer_main.xml" value="0.33" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/NavigationKullanimi/app/src/main/res/layout/navigation_baslik.xml" value="0.16767983789260385" />
+        <entry key="..\:/Users/halil/GitHub/devnot-innova-android-bootcamp/NavigationKullanimi/app/src/main/res/menu/bottom_menu.xml" value="0.34479166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="15" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

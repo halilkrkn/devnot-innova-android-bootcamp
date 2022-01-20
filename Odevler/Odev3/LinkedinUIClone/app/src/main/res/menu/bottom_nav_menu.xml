@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/linkedinMainFragment"
+        android:icon="@drawable/anasayfa_transparent"
+        android:title="Anasayfa"/>
+
+    <item android:id="@+id/agimFragment"
+        android:icon="@drawable/agim_transparent"
+        android:title="Ağım"/>
+
+    <item android:id="@+id/gonderFragment"
+        android:icon="@drawable/gonder_trans"
+        android:title="Gönder"/>
+
+    <item android:id="@+id/bildirimlerFragment"
+        android:icon="@drawable/bildirim_transparent"
+        android:title="Bildirimler"/>
+
+    <item android:id="@+id/isilaniFragment"
+        android:icon="@drawable/isilani_transparent"
+        android:title="İş İlanı"/>
+
+</menu>
