@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#86888a</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="linkedin_arama">#eef3f7</color>
+    <color name="linkedin_logo">#b0e0e6</color>
+    <color name="linkedin_yazi_baslik">#000000</color>
+    <color name="linkedin_search_yazi_renk1">#86888a</color>
+    <color name="linkedin_search_yazi_renk2">#86888a</color>
+    <color name="linkedin_link_renk">#00a0dc</color>
+</resources>
