@@ -1,0 +1,10 @@
+com/example/detaylirecyclerviewtasarimi/BuildConfig.java
+ com.example.detaylirecyclerviewtasarimi.BuildConfig
+com/example/detaylirecyclerviewtasarimi/databinding/ItemFilmCardBinding.java
+ com.example.detaylirecyclerviewtasarimi.databinding.ItemFilmCardBinding
+com/example/detaylirecyclerviewtasarimi/databinding/FragmentDetayBinding.java
+ com.example.detaylirecyclerviewtasarimi.databinding.FragmentDetayBinding
+com/example/detaylirecyclerviewtasarimi/databinding/ActivityMainBinding.java
+ com.example.detaylirecyclerviewtasarimi.databinding.ActivityMainBinding
+com/example/detaylirecyclerviewtasarimi/databinding/FragmentAnasayfaBinding.java
+ com.example.detaylirecyclerviewtasarimi.databinding.FragmentAnasayfaBinding
