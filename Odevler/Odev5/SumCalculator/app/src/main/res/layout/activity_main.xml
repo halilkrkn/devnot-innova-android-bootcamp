@@ -7,7 +7,6 @@
     android:layout_margin="8dp"
     tools:context=".MainActivity">
 
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
@@ -194,5 +193,4 @@
                 android:textSize="20sp" />
         </LinearLayout>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

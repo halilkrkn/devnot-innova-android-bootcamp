@@ -79,7 +79,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onEqual() {
-
         val textViewHesaplama = binding.textViewHesaplama.text.toString()
         val expression = ExpressionBuilder(textViewHesaplama).build()
         try {
@@ -89,6 +88,5 @@ class MainActivity : AppCompatActivity() {
             binding.textViewSonuc.text = "Error"
             lastNumeric = false
         }
-
     }
 }
