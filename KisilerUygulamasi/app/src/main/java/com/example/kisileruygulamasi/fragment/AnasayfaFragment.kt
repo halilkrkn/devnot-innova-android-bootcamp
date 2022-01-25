@@ -54,7 +54,6 @@ class AnasayfaFragment : Fragment(),SearchView.OnQueryTextListener{
 
             setHasFixedSize(true)
         }
-
         return binding.root
     }
 
