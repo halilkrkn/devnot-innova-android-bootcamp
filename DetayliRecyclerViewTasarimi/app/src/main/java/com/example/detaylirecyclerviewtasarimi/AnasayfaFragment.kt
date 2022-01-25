@@ -38,13 +38,6 @@ class AnasayfaFragment : Fragment() {
 
         val filmAdapter = FilmlerAdapter(requireContext(),filmlerListesi)
         binding.recyclerView.adapter = filmAdapter
-
-
-
-
-
-
-
         return binding.root
     }
 
