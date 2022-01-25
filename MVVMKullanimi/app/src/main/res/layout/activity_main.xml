@@ -4,15 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <variable
             name="mainActivityNesnesi"
             type="com.example.mvvmkullanimi.MainActivity" />
-
         <variable
             name="hesaplamaSonucu"
             type="String" />
-
         <import type="android.view.View"/>
     </data>
 
