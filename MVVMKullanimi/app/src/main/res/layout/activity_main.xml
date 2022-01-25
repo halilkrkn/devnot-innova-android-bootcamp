@@ -19,6 +19,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewSonuc"
+        app:layout_constraintStart_toStartOf="@+id/textViewSonuc"
         tools:context=".MainActivity">
 
         <EditText
@@ -55,9 +57,9 @@
             android:text="@{hesaplamaSonucu}"
             android:textAlignment="center"
             android:textColor="@{Integer.parseInt(hesaplamaSonucu) > 20 ? @color/teal_700 : @color/purple_500}"
-            android:visibility="@{Integer.parseInt(hesaplamaSonucu) > 50 ? View.INVISIBLE : View.VISIBLE}"
             android:textSize="34sp"
             android:textStyle="bold"
+            android:visibility="@{Integer.parseInt(hesaplamaSonucu) > 50 ? View.INVISIBLE : View.VISIBLE}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"

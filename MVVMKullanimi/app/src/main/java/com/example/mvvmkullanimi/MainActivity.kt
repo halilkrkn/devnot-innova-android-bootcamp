@@ -54,7 +54,6 @@ class MainActivity : AppCompatActivity() {
     fun buttonToplamaTikla(alinanSayi1:String, alinanSayi2:String){
         val sayi1 = alinanSayi1.toInt()
         val sayi2 = alinanSayi2.toInt()
-
         val toplam = sayi1 + sayi2
         binding.hesaplamaSonucu = "$toplam"
 
@@ -64,7 +63,6 @@ class MainActivity : AppCompatActivity() {
 
         val sayi1 = alinanSayi1.toInt()
         val sayi2 = alinanSayi2.toInt()
-
         val carpma = sayi1 * sayi2
         binding.hesaplamaSonucu = "$carpma"
 
