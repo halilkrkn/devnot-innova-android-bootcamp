@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\KisilerUygulamasi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_kisi_kayit.xml",
+        "source": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\KisilerUygulamasi\\app\\src\\main\\res\\layout\\fragment_kisi_kayit.xml"
+    },
+    {
+        "merged": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\KisilerUygulamasi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_kisiler_card.xml",
+        "source": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\KisilerUygulamasi\\app\\src\\main\\res\\layout\\item_kisiler_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\KisilerUygulamasi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_kisi_detay.xml",
+        "source": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\KisilerUygulamasi\\app\\src\\main\\res\\layout\\fragment_kisi_detay.xml"
+    },
+    {
+        "merged": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\KisilerUygulamasi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_anasayfa.xml",
+        "source": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\KisilerUygulamasi\\app\\src\\main\\res\\layout\\fragment_anasayfa.xml"
+    },
+    {
+        "merged": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\KisilerUygulamasi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\KisilerUygulamasi\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

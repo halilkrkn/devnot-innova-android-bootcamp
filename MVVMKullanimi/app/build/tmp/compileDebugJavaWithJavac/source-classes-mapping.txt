@@ -1,0 +1,23 @@
+com/example/mvvmkullanimi/generated/callback/OnClickListener.java
+ com.example.mvvmkullanimi.generated.callback.OnClickListener
+ com.example.mvvmkullanimi.generated.callback.OnClickListener$Listener
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/mvvmkullanimi/BuildConfig.java
+ com.example.mvvmkullanimi.BuildConfig
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/example/mvvmkullanimi/BR.java
+ com.example.mvvmkullanimi.BR
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/example/mvvmkullanimi/DataBindingTriggerClass.java
+ com.example.mvvmkullanimi.DataBindingTriggerClass
+com/example/mvvmkullanimi/databinding/ActivityMainBinding.java
+ com.example.mvvmkullanimi.databinding.ActivityMainBinding
+com/example/mvvmkullanimi/databinding/ActivityMainBindingImpl.java
+ com.example.mvvmkullanimi.databinding.ActivityMainBindingImpl
+com/example/mvvmkullanimi/DataBinderMapperImpl.java
+ com.example.mvvmkullanimi.DataBinderMapperImpl
+ com.example.mvvmkullanimi.DataBinderMapperImpl$InnerBrLookup
+ com.example.mvvmkullanimi.DataBinderMapperImpl$InnerLayoutIdLookup

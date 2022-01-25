@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\DetayliRecyclerViewTasarimi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_anasayfa.xml",
+        "source": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\DetayliRecyclerViewTasarimi\\app\\src\\main\\res\\layout\\fragment_anasayfa.xml"
+    },
+    {
+        "merged": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\DetayliRecyclerViewTasarimi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\DetayliRecyclerViewTasarimi\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\DetayliRecyclerViewTasarimi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_film_card.xml",
+        "source": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\DetayliRecyclerViewTasarimi\\app\\src\\main\\res\\layout\\item_film_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\DetayliRecyclerViewTasarimi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_detay.xml",
+        "source": "C:\\Users\\halil\\GitHub\\devnot-innova-android-bootcamp\\DetayliRecyclerViewTasarimi\\app\\src\\main\\res\\layout\\fragment_detay.xml"
+    }
+]

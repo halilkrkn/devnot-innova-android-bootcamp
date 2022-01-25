@@ -1,0 +1,4 @@
+com/example/kullanicietkilesimi/databinding/ActivityMainBinding.java
+ com.example.kullanicietkilesimi.databinding.ActivityMainBinding
+com/example/kullanicietkilesimi/BuildConfig.java
+ com.example.kullanicietkilesimi.BuildConfig

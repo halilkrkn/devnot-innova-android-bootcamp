@@ -1,0 +1,12 @@
+com/example/kisileruygulamasi/BuildConfig.java
+ com.example.kisileruygulamasi.BuildConfig
+com/example/kisileruygulamasi/databinding/FragmentAnasayfaBinding.java
+ com.example.kisileruygulamasi.databinding.FragmentAnasayfaBinding
+com/example/kisileruygulamasi/databinding/FragmentKisiDetayBinding.java
+ com.example.kisileruygulamasi.databinding.FragmentKisiDetayBinding
+com/example/kisileruygulamasi/databinding/ActivityMainBinding.java
+ com.example.kisileruygulamasi.databinding.ActivityMainBinding
+com/example/kisileruygulamasi/databinding/ItemKisilerCardBinding.java
+ com.example.kisileruygulamasi.databinding.ItemKisilerCardBinding
+com/example/kisileruygulamasi/databinding/FragmentKisiKayitBinding.java
+ com.example.kisileruygulamasi.databinding.FragmentKisiKayitBinding
