@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.amazonuiclone.ui.fragments.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" />
+    <fragment
+        android:id="@+id/hesapFragment"
+        android:name="com.example.amazonuiclone.ui.fragments.HesapFragment"
+        android:label="fragment_hesap"
+        tools:layout="@layout/fragment_hesap" />
+    <fragment
+        android:id="@+id/siparisFragment"
+        android:name="com.example.amazonuiclone.ui.fragments.SiparisFragment"
+        android:label="fragment_siparis"
+        tools:layout="@layout/fragment_siparis" />
+    <fragment
+        android:id="@+id/kategorilerFragment"
+        android:name="com.example.amazonuiclone.ui.fragments.KategorilerFragment"
+        android:label="fragment_kategoriler"
+        tools:layout="@layout/fragment_kategoriler" />
+</navigation>

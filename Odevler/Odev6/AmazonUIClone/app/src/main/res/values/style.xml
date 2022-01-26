@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="circleImageViewStyle" >
+        <item name="cornerSizeTopLeft">56dp</item>
+        <item name="cornerSizeTopRight">56dp</item>
+    </style>
+</resources>
