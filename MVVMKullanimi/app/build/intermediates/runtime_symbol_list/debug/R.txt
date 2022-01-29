@@ -2680,8 +2680,8 @@ int id easeIn 0x7f0800ab
 int id easeInOut 0x7f0800ac
 int id easeOut 0x7f0800ad
 int id east 0x7f0800ae
-int id editTextSayi1 0x7f0801e5
-int id editTextSayi2 0x7f0801e6
+int id editTextSayi1 0x7f0800af
+int id editTextSayi2 0x7f0800b0
 int id edit_query 0x7f0800b1
 int id elastic 0x7f0800b2
 int id end 0x7f0800b3
