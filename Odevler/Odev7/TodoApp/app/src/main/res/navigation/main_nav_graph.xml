@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/todoListFragment">
+
+    <fragment
+        android:id="@+id/todoAddFragment"
+        android:name="com.example.todoapp.fragments.todoadd.TodoAddFragment"
+        android:label="fragment_todo_add"
+        tools:layout="@layout/fragment_todo_add" >
+        <action
+            android:id="@+id/action_todoAddFragment_to_todoListFragment"
+            app:destination="@id/todoListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/todoDetailFragment"
+        android:name="com.example.todoapp.fragments.tododetail.TodoDetailFragment"
+        android:label="fragment_todo_detail"
+        tools:layout="@layout/fragment_todo_detail" >
+        <argument
+            android:name="todoList"
+            app:argType="com.example.todoapp.data.model.Todo" />
+    </fragment>
+    <fragment
+        android:id="@+id/todoListFragment"
+        android:name="com.example.todoapp.fragments.todolist.TodoListFragment"
+        android:label="fragment_todo_list"
+        tools:layout="@layout/fragment_todo_list" >
+        <action
+            android:id="@+id/todoDetailActions"
+            app:destination="@id/todoDetailFragment" />
+        <action
+            android:id="@+id/todoAddAction"
+            app:destination="@id/todoAddFragment" />
+    </fragment>
+</navigation>
