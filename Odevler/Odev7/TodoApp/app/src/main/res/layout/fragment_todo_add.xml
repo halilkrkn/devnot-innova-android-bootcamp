@@ -36,13 +36,13 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonTodoAdd"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="120dp"
             android:layout_marginEnd="32dp"
-            android:onClick="@{() -> todoAddFragment.todoAdd(editTextTodoAdd.getText().toString(),button)}"
+            android:onClick="@{() -> todoAddFragment.todoAdd(editTextTodoAdd.getText().toString(),buttonTodoAdd)}"
             android:text="Kaydet"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"

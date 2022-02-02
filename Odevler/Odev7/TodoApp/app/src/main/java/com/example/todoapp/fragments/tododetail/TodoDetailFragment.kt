@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.viewModels
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
 import com.example.todoapp.R
 import com.example.todoapp.data.model.Todo
@@ -41,7 +42,9 @@ class TodoDetailFragment : Fragment() {
         viewModel = tempViewModel
     }
     
-    fun todoUpdate(todo: Todo){
+    fun todoUpdate(todo_id:Int, todo_task:String,view: View){
+        val todo = Todo(todo_id,todo_task)
+        Navigation.findNavController(view).navigate(R.id.action_todoDetailFragment_to_todoListFragment)
         viewModel.todoUpdate(todo)
     }
 }

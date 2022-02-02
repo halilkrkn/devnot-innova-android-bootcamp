@@ -29,16 +29,17 @@ class TodoAppAdapter(
                 }
 
                 imageViewTodoDelete.setOnClickListener {
-                    Snackbar.make(it, "${todo.todo_task} silinsin mi?", Snackbar.LENGTH_LONG)
-                        .setAction("EVET") {
-                            Snackbar.make(it, "${todo.todo_task} Silindi?", Snackbar.LENGTH_LONG)
-                                .show()
-                                viewModel.deleteTodo(todo)
+
+                    viewModel.deleteTodo(todo)
+
+                    Snackbar.make(it, "${todo.todo_task} silindi.", Snackbar.LENGTH_LONG)
+                        .setAction("Geri Al") {
+
+                            viewModel.backwardTodo(todo)
+                            
                         }
                         .show()
                 }
-
-
             }
         }
     }

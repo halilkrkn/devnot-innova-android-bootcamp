@@ -1,9 +1,11 @@
 package com.example.todoapp.fragments.todolist
 
 import android.os.Bundle
+import android.util.Log
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.SearchView
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.viewModels
 import androidx.navigation.Navigation
@@ -54,8 +56,28 @@ class TodoListFragment(): Fragment() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.search_menu,menu)
         super.onCreateOptionsMenu(menu, inflater)
+
+        inflater.inflate(R.menu.search_menu,menu)
+
+        val searchItem = menu.findItem(R.id.search_menu)
+        val searchView = searchItem.actionView as SearchView
+
+        searchView.queryHint = "Arama Yap"
+        searchView.setOnQueryTextListener(object: SearchView.OnQueryTextListener{
+            override fun onQueryTextSubmit(query: String): Boolean {
+                viewModel.searchTodo(query)
+                searchView.clearFocus()
+                return true
+            }
+
+            override fun onQueryTextChange(newText: String): Boolean {
+                viewModel.searchTodo(newText)
+                return true
+            }
+
+        })
+
 
     }
 
@@ -63,9 +85,9 @@ class TodoListFragment(): Fragment() {
         Navigation.findNavController(view).navigate(R.id.todoAddAction)
     }
 
-/*    override fun onResume() {
+    override fun onResume() {
         super.onResume()
         viewModel.getAllTodo()
-    }*/
+    }
 
 }

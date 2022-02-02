@@ -24,6 +24,8 @@ class TodoAppRepository(var application: Application) {
         todoDb.todoAppDao().insertTodo(todoAdd)
     }
 
+    suspend fun backwardTodo(todo: Todo) = todoDb.todoAppDao().insertTodo(todo)
+
     suspend fun updateTodo(todo: Todo) = todoDb.todoAppDao().updateTodo(todo)
     suspend fun deleteTodo(todo: Todo) = todoDb.todoAppDao().deleteTodo(todo)
     suspend fun getSearchTodo(searchWord: String) = todoDb.todoAppDao().getSearchTodo(searchWord)

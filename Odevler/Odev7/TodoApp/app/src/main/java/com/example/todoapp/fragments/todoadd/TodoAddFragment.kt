@@ -48,6 +48,5 @@ class TodoAddFragment : Fragment() {
     fun todoAdd(todo_task:String,view: View){
         viewModel.insertTodo(todo_task)
         Navigation.findNavController(view).navigate(R.id.action_todoAddFragment_to_todoListFragment)
-        viewModels.getAllTodo()
     }
 }

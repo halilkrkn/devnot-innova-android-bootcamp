@@ -15,15 +15,6 @@ class TodoListViewModel(application: Application) : AndroidViewModel(application
     var todoList: MutableLiveData<List<Todo>> = MutableLiveData()
     val repository = TodoAppRepository(application)
 
-    init {
-        todoList
-        giveTodo()
-        getAllTodo()
-    }
-
-    fun giveTodo(): MutableLiveData<List<Todo>> {
-        return todoList
-    }
 
     fun getAllTodo() = viewModelScope.launch(Dispatchers.Main) {
         todoList.value = repository.getAllTodo()
@@ -32,6 +23,15 @@ class TodoListViewModel(application: Application) : AndroidViewModel(application
     fun deleteTodo(todo: Todo) = viewModelScope.launch{
         repository.deleteTodo(todo)
         getAllTodo()
+    }
+
+    fun backwardTodo(todo:Todo) = viewModelScope.launch{
+        repository.backwardTodo(todo)
+        getAllTodo()
+    }
+
+    fun searchTodo(searchWord: String) = viewModelScope.launch{
+        todoList.value = repository.getSearchTodo(searchWord)
     }
 }
 
