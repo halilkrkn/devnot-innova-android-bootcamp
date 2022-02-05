@@ -16,10 +16,5 @@
  - İnternet Tabanlı İşlemler
  - Lokasyon İşlemleri
 
-- ## 7 Hafta Sürecek Eğitimde ve Sonrasında Neler Yapılacak?
-- Yukarıda belirtilen Kotlin ve Android Yapıları Öğrenilecek
-- Ödevler ile gelişimler takip edilecek
-- Bitirme Projesi sayesinde tüm eğitim boyunca öğrenilmiş yetenekler sayesinde bir proje gerçekleştirilecek. 
-- Bitirme Projesi Sunumu Yapıldıktan sonra ise bootcamp'e katılım yapan öğrenciler içerisinde devamsızlık, ödev performansı, derse katılımları ve bitirme projesi sunumundan sonra Innova Bilişim şirketinin belirlediği developer alım sayısı kadar şirket bünyesine Android Developer olarak katılım sağlanacak.
 
  
